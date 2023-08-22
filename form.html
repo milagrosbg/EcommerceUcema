@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="https://th.bing.com/th/id/OIP.TfXvI3PoczBfRbx1JO4NugHaE-?pid=ImgDet&rs=1" alt="Logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a></li>
+                <li>
+                    <a href="">Destacados</a></li>
+                <li>
+                    <a href=""> Favoritos</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1>
+                    Trabaja con nosotros
+                </h1>
+                <h2>
+                    Gracias por el interes en nuestra empresa
+                </h2>
+                <p>
+                    Completa el formulario de postulacion
+                </p>
+            </div>
+            <div>
+                <form action="malito:milagrosblascogaona@gmail.com">
+                    <fieldset> Informacion personal
+                        <div>
+                            <label for=""> Nombre y apellido</label>
+                            <input type="text" name="fullname" id="fullname" placeholder="Juan Perez" required>
+
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="lautaro@gmail.com" required>
+
+                        </div>
+                        <div>
+                            <label for="dni"> DNI o pasaporte</label>
+                            <input type="text" name="dni" id="dni" required>
+                        </div>
+                        <div>
+                            <label for="position"> Puesto a postular</label>
+                            <select name="position" id="position">
+                                <option value="" selected>Selecione una opcion</option>
+                                <option value="mkt">Analista de Marketing</option>
+                                <option value="fin">   jefe de finanzas</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cv">Subi tu cv</label>
+                            <input type="file" name="cv" id="cv">
+                        </div>
+                        <div>
+                            <label for="age">Edad</label>
+                            <input type="number" name="age" id="age" min="18" max="80" step="0.5">
+                        </div>
+                        <div>
+                            <p>Idiomas</p>
+
+                            <input type="checkbox" name="language" id="l-sp" value="spanish">
+                            <label for="l-sp">Español</label>
+                            
+                            <input type="checkbox" name="language" id="l-en" value="english">
+                            <label for="l-en">Ingles</label>
+                            
+                            <input type="checkbox" name="language" id="l-fr" value="french">
+                            <label for="l-fr">Frances</label>
+                        </div>
+                        <div>
+                            <label for="telephone">Telefono</label>
+                            <input type="tel" name="telephone" id="telephone" maxlength="12">
+                        </div>
+                        <div>
+                            <label for="linkedin">Linkedin</label>
+                            <input type="text" name="linkedin" id="linkedin">
+                        </div>
+                        <div>
+                            <label for="cover letter"> Carta de presentacion</label>
+                            <textarea name="cover letter" id="cover letter" cols="30" rows="10" maxlength="5000" placeholder="Contanos porque queres trabajar con nosotros"></textarea>
+                        </div>
+                
+                    
+                    </fieldset>
+                    <fieldset>
+                        <legend>Disponibilidad horaria</legend>
+                        <div>
+                            <input type="radio" name="Working preferences" id="morning">
+                            <label for="morning">mañana</label>
+                            <input type="radio" name="working preferences" id="evening">
+                            <label for="evening">tarde</label>
+                        </div>
+                        <div>
+                            <legend>Forma de trabajo</legend>
+                            <input type="radio" name="working preferences" id="remote">
+                            <label for="remote"> virtual</label>
+                            <input type="radio" name="working preferences" id="face to face">
+                            <label for="face to face">Presencial</label>
+                            </div>
+                            <div>
+                                <label for="start date"></label>
+                                
+                            </div>
+
+                    </fieldset>
+                    <input type="submit" value="Subir">
+                    <button type="submit">Enviar</button>
+
+
+                </form>
+
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer> 
+</body>
+</html>
